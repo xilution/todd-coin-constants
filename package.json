@@ -1,6 +1,6 @@
 {
   "name": "@xilution/todd-coin-constants",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The Todd Coin Cryptocurrency Constants",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
