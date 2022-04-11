@@ -2,7 +2,7 @@
 
 Todd Coin is a Cryptocurrency for Good.
 
-These are Todd Coin Typescript Types.
+These are Todd Coin Constants.
 
 ## First Things First
 
