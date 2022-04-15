@@ -22,7 +22,7 @@ describe("Index Tests", () => {
     expect(MAX_TRANSACTIONS_PER_BLOCK).toEqual(100);
     expect(FIRST_PAGE).toEqual(0);
     expect(DEFAULT_PAGE_SIZE).toEqual(10);
-    expect(MAXIMUM_PAGE_SIZE).toEqual(250);
+    expect(MAXIMUM_PAGE_SIZE).toEqual(100);
     expect(GENESIS_HASH).toEqual(
       "0000000000000000000000000000000000000000000000000000000000000000"
     );
