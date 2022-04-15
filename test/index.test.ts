@@ -15,7 +15,7 @@ import {
 } from "../src";
 
 describe("Index Tests", () => {
-  it("export constants", () => {
+  it("should export constants", () => {
     expect(DIFFICULTY).toEqual(4);
     expect(MINING_REWARD).toEqual(10);
     expect(GENESIS_REWARD).toEqual(50);
