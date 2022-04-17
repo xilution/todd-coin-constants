@@ -7,6 +7,7 @@ on:
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
@@ -15,16 +16,23 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.14.2]
+        node-version: [ 16.14.2 ]
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: false
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm ci
-      - run: npm run verify
-      - run: npm run build
-      - run: npm run semantic-release
+      - name: Download Dependencies
+        run: npm ci
+      - name: Verify
+        run: npm run verify
+      - name: Build
+        run: npm run build
+      - name: Release
+        run: npm run semantic-release
