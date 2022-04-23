@@ -12,6 +12,7 @@ import {
   GENESIS_BLOCK_ID,
   GENESIS_TRANSACTION_ID,
   GENESIS_NONCE,
+  DEFAULT_PARTICIPANT_KEY_TIME_TO_LIVE_IN_DAYS,
 } from "../src";
 
 describe("Index Tests", () => {
@@ -37,5 +38,6 @@ describe("Index Tests", () => {
       "13b155a6-da09-4e9c-ba13-9c78bdc87443"
     );
     expect(GENESIS_NONCE).toEqual(0);
+    expect(DEFAULT_PARTICIPANT_KEY_TIME_TO_LIVE_IN_DAYS).toEqual(365);
   });
 });

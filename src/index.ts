@@ -13,3 +13,4 @@ export const GENESIS_PARTICIPANT_PUBLIC_KEY =
 export const GENESIS_BLOCK_ID = "6daed5b3-86fb-4c68-945f-87fac9cbe846";
 export const GENESIS_TRANSACTION_ID = "13b155a6-da09-4e9c-ba13-9c78bdc87443";
 export const GENESIS_NONCE = 0;
+export const DEFAULT_PARTICIPANT_KEY_TIME_TO_LIVE_IN_DAYS = 365;
