@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/xilution/todd-coin-constants/compare/v1.2.0...v2.0.0) (2022-04-23)
+
+
+### Features
+
+* removed genesis constants ([589abbf](https://github.com/xilution/todd-coin-constants/commit/589abbf03592404d5f7cfc269456a7ffa7578b3c))
+
+
+### BREAKING CHANGES
+
+* no more genesis constants
+
 # [1.2.0](https://github.com/xilution/todd-coin-constants/compare/v1.1.0...v1.2.0) (2022-04-23)
 
 
