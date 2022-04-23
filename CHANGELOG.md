@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/xilution/todd-coin-constants/compare/v1.1.0...v1.2.0) (2022-04-23)
+
+
+### Features
+
+* added constant for default participant key ttl ([a4ac51c](https://github.com/xilution/todd-coin-constants/commit/a4ac51c258f62ccdda370b9822e32727a5d85349))
+
 # [1.1.0](https://github.com/xilution/todd-coin-constants/compare/v1.0.0...v1.1.0) (2022-04-15)
 
 
