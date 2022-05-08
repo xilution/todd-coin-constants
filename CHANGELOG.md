@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/xilution/todd-coin-constants/compare/v2.0.0...v2.1.0) (2022-05-08)
+
+
+### Features
+
+* added TODD_COIN_ORGANIZATION_ID ([ce6bcaf](https://github.com/xilution/todd-coin-constants/commit/ce6bcaf1f658cf77a0496c71f969870baa5100cb))
+
 # [2.0.0](https://github.com/xilution/todd-coin-constants/compare/v1.2.0...v2.0.0) (2022-04-23)
 
 
