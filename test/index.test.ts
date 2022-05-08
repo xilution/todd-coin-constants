@@ -6,6 +6,7 @@ import {
   DEFAULT_PAGE_SIZE,
   MAXIMUM_PAGE_SIZE,
   DEFAULT_PARTICIPANT_KEY_TIME_TO_LIVE_IN_DAYS,
+  TODD_COIN_ORGANIZATION_ID,
 } from "../src";
 
 describe("Index Tests", () => {
@@ -17,5 +18,8 @@ describe("Index Tests", () => {
     expect(DEFAULT_PAGE_SIZE).toEqual(10);
     expect(MAXIMUM_PAGE_SIZE).toEqual(100);
     expect(DEFAULT_PARTICIPANT_KEY_TIME_TO_LIVE_IN_DAYS).toEqual(365);
+    expect(TODD_COIN_ORGANIZATION_ID).toEqual(
+      "63315106-1d75-4c65-b4db-470c3ead3d00"
+    );
   });
 });

@@ -5,3 +5,4 @@ export const FIRST_PAGE = 0;
 export const DEFAULT_PAGE_SIZE = 10;
 export const MAXIMUM_PAGE_SIZE = 100;
 export const DEFAULT_PARTICIPANT_KEY_TIME_TO_LIVE_IN_DAYS = 365;
+export const TODD_COIN_ORGANIZATION_ID = "63315106-1d75-4c65-b4db-470c3ead3d00";
